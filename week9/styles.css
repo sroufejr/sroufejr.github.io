@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 640px;
+    gap: 10px;
+    overflow: hidden;
+    width: 1366px;
+    margin: auto;
+    margin-top: 20px;
+
+	
+}
+
+.map-overlay {
+	position: absolute;
+	left: 0;
+	padding; 10px;
+}
+
+.start-button{
+	display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 60px;
+    gap: 10px;
+    overflow: hidden;
+    width: 1366px;
+	margin: auto;
+	margin-top: 20px;
+
+}
